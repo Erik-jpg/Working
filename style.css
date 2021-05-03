@@ -1,3 +1,8 @@
+body {
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
@@ -9,7 +14,7 @@ input[type=text], select, textarea {
     resize: vertical 
   }
   
-  
+   
   input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -32,11 +37,15 @@ input[type=text], select, textarea {
   }
 
   .header {
-    padding: 60px;
+    padding: 10px 16px;
     text-align: center;
-    background-color: blue;
+    background-color:blue;
     color: white;
     font-size: 30px;
+    position: fixed;
+    top: 5%;
+    width: 100%;
+    position:sticky;
   }
 
   .footer {
@@ -48,3 +57,31 @@ input[type=text], select, textarea {
     color: white;
     text-align: center;
   }
+
+  .navigationbuttons {
+    list-style-type: none;
+    margin:0%;
+    padding:0%;
+    background-color:crimson;
+  }
+
+  .horizontal {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    overflow:hidden;
+  }
+
+  li {
+    display: inline-block;
+    float:left;
+    padding: 8px;
+    background-color:crimson;
+    color:forestgreen;
+
+  }
+
+ 
