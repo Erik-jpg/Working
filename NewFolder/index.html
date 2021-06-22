@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="./style" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.2/css/bulma.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="./logic.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <script src="logic.js"></script>
-
-
+    <h1>CookBook App!</h1>
+    <h2>Your recipes here.</h2>
+    <textarea class="textarea is-small" id="recipeName" name='userInput' placeholder="please name your recipe"></textarea>
+    <textarea class="textarea is-large" id="recipeCards" placeholder="save your recipes here..."></textarea>
+    <a id="saveBtn" class="button is-primary">Save</a>
+    <a class="button is-link" id="getBtn">Grab a Recipe</a>
+    <a class="button is-danger" id="deleteBtn">Delete</a></a>
+<textarea class="retrievedCards" id="cardHolder" placeholder="retrieved recipes will be displayed here..."></textarea>
+<div id="userCookbook" class="RecipeStorage">
+    <textarea id="keyEntry" placeholder= "Please enter the name of the recipe you wish to view"></textarea>
+    <p id="recipeCard1" placeholder= "This is a demo recipeCards"></p>
+    <p id="recipeCards-2" placeholder= "This is a demo recipeCards"></p>
+</div>
 </body>
 </html>
