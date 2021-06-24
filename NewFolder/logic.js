@@ -42,7 +42,7 @@ function reset() {
     (document.querySelector("#recipeCards").value = "");
 }
 //to removeItem (delete)
-document.querySelector("#deleteBtn").addEventListener("click", function (e) {
+document.querySelector("#deleteBtn").addEventListener("click", function () {
   deleteRecipe();
 });
 
